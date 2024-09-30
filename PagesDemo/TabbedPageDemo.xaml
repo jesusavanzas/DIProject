@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.TabbedPageDemo"
+             Title="TabbedPageDemo"
+             BarBackgroundColor="Darkblue"
+             BarTextColor="LightSalmon"
+             SelectedTabColor="DarkRed"
+             UnselectedTabColor="DarkKhaki">
+
+    <ContentPage Title="pagina 1" IconImageSource="dotnet_bot.png">
+        <VerticalStackLayout>
+            <Image Source="dotnet_bot.png" WidthRequest="50" HeightRequest="50"/>
+        </VerticalStackLayout>
+    </ContentPage>
+    <ContentPage Title="pagina2" IconImageSource="dotnet_bot.png">
+        <Label Text="=pagina2"/>
+    </ContentPage>
+    <ContentPage Title="pagina3" IconImageSource="dotnet_bot.png">
+        <Label Text="=pagina3"/>
+    </ContentPage>
+
+</TabbedPage>
